@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,800&display=swap');
+
+.main-header{
+    padding: 40px 50px;
+    background-color: #474747;
+    display:flex;
+    justify-content: space-between;
+}
+.header-logo{
+    color: #e8175d;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    white-space: nowrap;
+    font-size: 30px;
+}
+.header-details{
+    display: flex;
+}
+.address{
+    display: flex;
+    margin-left:3px;
+    justify-content: center;
+    align-items: center;
+}
+.address-icon{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #e8175d;
+    border: 3px solid #e8175d;
+    border-radius: 50%;
+    padding: 1%;
+}
+.address-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    padding: 0px 3%; 
+}
+.phone{
+    display: flex;
+    margin:0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.phone-text{
+    font-size: 11px;
+    color:white;
+    margin-left: 10px;
+    font-weight: 800;
+    white-space: nowrap;
+    color: #e8175d;
+}
+.phone-icon{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    color: #e8175d;
+    border: 3px solid #e8175d;
+    border-radius: 50%;
+    padding: 2%;
+}
+.number{
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+.service{
+    margin:0 20px;
+}
+.service-text{
+    font-size: 10px;
+    color: #e8175d;
+    font-weight: 800;
+    margin-top: 1%;
+}
+.service-number{
+    font-size: 13px;
+    color: white;
+    font-weight: 800;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .phone-text{
+        display: none;
+    }
+    .service{
+        display: none;
+    }
+    .address-text{
+        display: none;
+    }
+    .phone-icon{
+        padding: 30%;
+        font-size: 25px;
+    }
+    .address-icon{
+        padding: 18%;
+        font-size: 25px;
+        margin-right: 20px
+    
+    }
+  }
+
+
+@media only screen and (max-width: 800px) {
+    .service{
+        display: none;
+    }
+ 
+  }
+

@@ -1,0 +1,14 @@
+
+
+.add-product{
+  position: fixed;
+  bottom: 7%;
+  right: 3%;
+  padding: 10px;
+  border-radius: 10%;
+  font-size: 15px;
+  background-color: #474747;
+  color: #e8175d;
+  font-weight: 600;
+  cursor: pointer;
+}

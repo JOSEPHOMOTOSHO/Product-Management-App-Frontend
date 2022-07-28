@@ -1,0 +1,22 @@
+.product-list{
+    margin: 2% 3vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .product-list{
+        margin: 2% 0vw;
+        display:flex;
+        flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .product-list{
+        margin: 2% 0vw;
+        display:flex;
+        flex-wrap: wrap;
+    }
+  }
